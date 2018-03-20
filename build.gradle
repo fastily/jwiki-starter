@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'jwikistarter.JwikiExample'
+
+dependencies {
+    compile 'fastily:jwiki:1.5.0'
+}
+
+repositories {
+    mavenLocal()
+    jcenter()
+}

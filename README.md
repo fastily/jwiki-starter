@@ -7,3 +7,5 @@ A simple template for getting started with [jwiki](https://github.com/fastily/jw
 
 * You can make edits to `JwikiExample.java` under `src/main/java/jwikistarter/`
 * Run your code with `./gradlew run`
+
+Example snippets and more instructions are available [here](https://github.com/fastily/jwiki/wiki/Examples).

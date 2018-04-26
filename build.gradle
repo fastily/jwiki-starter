@@ -6,10 +6,14 @@ plugins {
 mainClassName = 'jwikistarter.JwikiExample'
 
 dependencies {
-    compile 'fastily:jwiki:1.5.0'
+    compile 'fastily:jwiki:1.6.0'
 }
 
 repositories {
     mavenLocal()
     jcenter()
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.7'
 }

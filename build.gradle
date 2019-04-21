@@ -15,5 +15,5 @@ repositories {
 }
 
 wrapper {
-    gradleVersion = '5.3'
+    gradleVersion = '5.4'
 }

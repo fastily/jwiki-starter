@@ -5,6 +5,9 @@ plugins {
 
 mainClassName = 'jwikistarter.JwikiExample'
 
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
 dependencies {
     compile 'fastily:jwiki:1.7.0'
 }
@@ -15,5 +18,5 @@ repositories {
 }
 
 wrapper {
-    gradleVersion = '5.4'
+    gradleVersion = '5.4.1'
 }

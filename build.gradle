@@ -1,22 +1,25 @@
 plugins {
-    id 'java'
     id 'application'
+    id 'java'
 }
 
-mainClassName = 'jwikistarter.JwikiExample'
+application {
+	mainClassName = 'jwikistarter.JwikiExample'
+}
 
-sourceCompatibility = JavaVersion.VERSION_11
-targetCompatibility = JavaVersion.VERSION_11
+java {
+	sourceCompatibility = JavaVersion.VERSION_11
+	targetCompatibility = JavaVersion.VERSION_11
+}
 
 dependencies {
-    implementation 'fastily:jwiki:1.7.0'
+    implementation 'org.fastily:jwiki:1.8.0'
 }
 
 repositories {
-    mavenLocal()
-    jcenter()
+	mavenCentral()
 }
 
 wrapper {
-    gradleVersion = '6.2'
+    gradleVersion = '6.3'
 }

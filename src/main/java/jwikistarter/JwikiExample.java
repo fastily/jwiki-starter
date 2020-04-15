@@ -1,13 +1,13 @@
 package jwikistarter;
 
-import fastily.jwiki.core.*;
-import fastily.jwiki.dwrap.*;
+import org.fastily.jwiki.core.*;
+import org.fastily.jwiki.dwrap.*;
 
 public class JwikiExample
 {
 	public static void main(String[] args)
 	{
-		Wiki wiki = new Wiki("en.wikipedia.org");
+		Wiki wiki = new Wiki.Builder().build();
 		
 		// EXAMPLE CODE GOES HERE
 	}

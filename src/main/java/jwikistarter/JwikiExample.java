@@ -1,7 +1,7 @@
 package jwikistarter;
 
-import org.fastily.jwiki.core.*;
-import org.fastily.jwiki.dwrap.*;
+import io.github.fastily.jwiki.core.*;
+import io.github.fastily.jwiki.dwrap.*;
 
 public class JwikiExample
 {
